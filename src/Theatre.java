@@ -11,8 +11,8 @@ public class Theatre {
         Actor britishActor = new Actor("Gary", "Oldman", Gender.MALE, 174d);
         Director russianDirector = new Director("Anton", "Chekhov", Gender.MALE, 17);
         Director sovietDirector = new Director("Yury", "Grigorovich", Gender.MALE, 8);
-        String musicAuthor = "П. И. Чайковский";
-        String choreographer = "Мариус Петипа";
+        Person musicAuthor = new Person("Пётр", "Чайковский", Gender.MALE);
+        Person choreographer = new Person("Мариус", "Петипа", Gender.MALE);
 
         Show threeSisters = new Show("Три сестры", 120d, russianDirector, new ArrayList<>());
         Opera theQueenOfSpades = new Opera("Пиковая дама", 180d, sovietDirector, new ArrayList<>(), musicAuthor, "Все умирают. Аплодисменты!", 50);
